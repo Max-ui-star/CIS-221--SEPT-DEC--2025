@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fashion Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Fashion Store</h1>
+    <p>Your one-stop destination for trendy fashion</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#men">Men</a></li>
+      <li><a href="#women">Women</a></li>
+      <li><a href="#kids">Kids</a></li>
+      <li><a href="#offers">Sale Offers</a></li>
+      <li><a href="#benefits">Why Shop With Us</a></li>
+    </ul>
+  </nav>
+
+  <section id="men" class="category">
+    <h2>Men's Fashion</h2>
+    <div class="items">
+      <div class="item">👕 T-Shirts</div>
+      <div class="item">👖 Jeans</div>
+      <div class="item">🧥 Jackets</div>
+    </div>
+  </section>
+
+  <section id="women" class="category">
+    <h2>Women's Fashion</h2>
+    <div class="items">
+      <div class="item">👗 Dresses</div>
+      <div class="item">👚 Tops</div>
+      <div class="item">👜 Handbags</div>
+    </div>
+  </section>
+
+  <section id="kids" class="category">
+    <h2>Kids' Fashion</h2>
+    <div class="items">
+      <div class="item">🧒 T-Shirts</div>
+      <div class="item">👟 Shoes</div>
+      <div class="item">🎒 Backpacks</div>
+    </div>
+  </section>
+
+  <section id="offers">
+    <h2>Upcoming Sale Offers</h2>
+    <table>
+      <tr>
+        <th>Sale Name</th>
+        <th>Start Date</th>
+        <th>Discount</th>
+        <th>Category</th>
+      </tr>
+      <tr>
+        <td>Autumn Clearance</td>
+        <td>Oct 5, 2025</td>
+        <td>Up to 50%</td>
+        <td>All Categories</td>
+      </tr>
+      <tr>
+        <td>Festive Bonanza</td>
+        <td>Nov 1, 2025</td>
+        <td>Buy 1 Get 1</td>
+        <td>Women & Kids</td>
+      </tr>
+      <tr>
+        <td>Black Friday</td>
+        <td>Nov 28, 2025</td>
+        <td>Flat 60%</td>
+        <td>Men's Fashion</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="benefits">
+    <h2>Why Shop With Fashion Store?</h2>
+    <ul>
+      <li>✅ Trendy and curated collections</li>
+      <li>✅ Fast and reliable delivery</li>
+      <li>✅ Easy returns and exchanges</li>
+      <li>✅ Secure payment options</li>
+      <li>✅ 24/7 customer support</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fashion Store. All rights reserved.</p>
+  </footer>
+</body>
+</html>
